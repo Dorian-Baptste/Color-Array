@@ -1,0 +1,31 @@
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.colorgrid {
+    display: grid;
+    grid-template-columns: repeat(10, 125px);
+    grid-gap: 5px;
+    grid-auto-rows: 125px;
+    margin: 20px 20px 20px 20px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+
+.color-circles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    height: 125px;
+    border: 1px dashed black;
+    border-radius: 50%;
+}
