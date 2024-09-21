@@ -10,7 +10,7 @@ context.fillStyle = canvas;
 function addColorstoScreen(colorArray) {
     colorArray.forEach((color) => {
         const textColor = "black";
-        const colorDisplay = `<div class="color-circles" style="background-color: ${color}; color: ${textColor};">
+        const colorDisplay = `<div class="color-circles" style="background-color:${color};">
         ${color}
         </div>`;
         grid.insertAdjacentHTML("beforeend", colorDisplay);
